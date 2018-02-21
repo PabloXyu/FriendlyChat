@@ -19,10 +19,10 @@ public class FriendlyChat extends Application {
 
     public void onCreate() {
         super.onCreate();
-/*
-        FirebaseApp.initializeApp(this);
+      //  FirebaseApp.initializeApp(this);
+
         FriendlyChat.context = getApplicationContext();
-        FirebaseDatabase mFirebaseDatabase= FirebaseDatabase.getInstance();
+ /*       FirebaseDatabase mFirebaseDatabase= FirebaseDatabase.getInstance();
         DatabaseReference mMessagesDatabaseReference = mFirebaseDatabase.getReference().child("messages");
 */
     }

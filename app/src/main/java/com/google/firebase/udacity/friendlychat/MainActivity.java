@@ -62,11 +62,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mUsername = ANONYMOUS;
-        //todo: db initialized:
 
         //db created:
-
-        FirebaseApp.initializeApp(getBaseContext());
         FirebaseDatabase mFirebaseDatabase= FirebaseDatabase.getInstance();
         DatabaseReference mMessagesDatabaseReference = mFirebaseDatabase.getReference().child("messages");
 
